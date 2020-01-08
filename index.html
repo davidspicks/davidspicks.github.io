@@ -219,12 +219,12 @@ img.emoji {
 				// Parse JSON array string into object
 				//document.getElementById("demo").innerHTML = JSON.stringify(response);
                 var obj = JSON.parse(response);
-                var text = "<h2>" + obj.Heading + "</h2>";
-				text += "<br>" + obj.Events.length + " Events<br>";
+				var text = "Json file contains " + obj.Events.length + " events.<br>";
+                text += "<h2>" + obj.Heading + "</h2>";
 				var i;
 				for (i = 0; i < obj.Events.length; i++) {
 					//text += "<br>Event#  " + (i + 1);
-					text += "<p><br>" + obj.Events[i].title;
+					text += "<p>" + obj.Events[i].title;
 					text += " " + obj.Events[i].badges;
 					text += "<br>" + obj.Events[i].description;
 					if (obj.Events[i].links != "")
