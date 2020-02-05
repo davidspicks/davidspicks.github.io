@@ -94,8 +94,8 @@
     <meta name="twitter:site" content="@DavidsBPicks">
 
     <!-- End Jetpack Open Graph Tags -->
-    <link rel="shortcut icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
-    <link rel="icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+    <link rel="shortcut icon" type="image/x-icon" href="https://s1.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48"> -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="https://s2.wp.com/i/webclip.png">
     <link rel="openid.server" href="https://davidspicks.com/?openidserver=1">
     <link rel="openid.delegate" href="https://davidspicks.com/">
@@ -199,7 +199,6 @@
                         <div class="nav-previous"><a href="https://davidspicks.com/page/2/"><span class="meta-nav">←</span> Older posts</a></div>
                         <div class="nav-next"></div>
                     </div><!-- #nav-above -->
-
                     <!-- Load React. -->
                     <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
                     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
@@ -208,9 +207,9 @@
                     <!-- load picksObj content object -->
                     <script src="picks_content.js"></script>
 
-                    <!-- load React component -->
-                    <div id="picks"></div>
-                    <script src="picks.js"></script>                   
+                    <!-- load picks post React component -->
+                    <div id="root"></div>
+                    <script src="app.js"></script>
 
                     <div id="nav-below" class="navigation">
                         <div class="nav-previous"><a href="https://davidspicks.com/page/2/"><span class="meta-nav">←</span> Older posts</a></div>
