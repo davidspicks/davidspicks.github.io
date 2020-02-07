@@ -1,5 +1,5 @@
-buildtitle = "stage-02 build name";
-buildnumber = "nnn";
+buildtitle = "HTML table demo";
+buildnumber = "001";
 
 if (document.getElementById("stage-02-announce")) {
   document.getElementById("stage-02-announce").innerHTML = buildtitle + "; build " + buildnumber;
