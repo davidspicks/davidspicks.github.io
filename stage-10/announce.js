@@ -1,0 +1,1 @@
+document.getElementById("stage-10-announce").innerHTML = "Stage 10: no content";
