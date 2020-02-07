@@ -1,5 +1,5 @@
 var picksObj = {
-  "Heading": "February 7-1, 2020",
+  "Heading": "February 7- March 1, 2020",
   "fromDate": "2020-02-07T00:00:00",
   "toDate": "2020-03-01T23:59:59.64",
   "Events": [
