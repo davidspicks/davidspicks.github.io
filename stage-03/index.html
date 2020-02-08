@@ -1,22 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>David's Picks</title>
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <link rel="icon" 
+      type="image/bmp" 
+      href="favicon.ico">
+  </head>
+  <body>
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+    <h2>David's Picks</h2>
+    <p>Things to do on the weekend.</p>
 
-  <title>David's Picks</title>
-  <meta name="description" content="David's Picks">
-  <meta name="author" content="David B">
+    <!-- The React component will render inside this div. -->
+    <div id="root"></div>
 
-  <!--<link rel="stylesheet" href="css/styles.css?v=1.0">-->
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 
-</head>
+    <!-- Load Picks content. -->
+    <script src="picks_content.js"></script>
 
-<body>
-  <h1>Stage 3</h1>
-  <br><span>A space to play around with web coding</span>
-  <br><a href="../page2.html">Back
-  </a>
-  <!--<script src="js/scripts.js"></script>-->
-</body>
+    <!-- Load the React component. -->
+    <script src="app.js"></script>
+
+  </body>
 </html>
