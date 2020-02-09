@@ -1,20 +1,36 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>David's Picks</title>
-    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
-    <link rel="icon" 
-      type="image/bmp" 
-      href="favicon.ico">
-  </head>
-  <body>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8" />
+<title>David's Picks</title>
+<link rel="stylesheet" type="text/css" href="./css/styles.css">
+<link rel="stylesheet" type="text/css" href="./css/hero.css">
+<link rel="stylesheet" type="text/css" href="./css/content.css">
+<link rel="stylesheet" type="text/css" href="./css/nav.css">
 
-    <h2>David's Picks</h2>
-    <p>Things to do on the weekend.</p>
+<link rel="shortcut icon" type="image/bmp" href="favicon.ico">
+<link rel="icon"  type="image/bmp" href="favicon.ico">
+</head>
+<body>
 
-    <!-- The React component will render inside this div. -->
-    <div id="root"></div>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">David's Picks</h1>
+    <p>Things to do on the weekend</p>
+    <button>Comment</button>
+  </div>
+</div>
+
+
+<div>
+  <div class="content" id="root"></div>
+
+<ul>
+  <li><a class="active" href="#root">Find more</a></li>
+  <li><a href="#news">Link 1</a></li>
+  <li><a href="#contact">Link 2</a></li>
+  <li><a href="#about">Link 3</a></li>
+</ul>
 
     <!-- Load React. -->
     <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
@@ -27,5 +43,7 @@
     <!-- Load the React component. -->
     <script src="app.js"></script>
 
-  </body>
+  </div>  
+
+</body>
 </html>

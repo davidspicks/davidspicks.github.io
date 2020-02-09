@@ -1,3 +1,4 @@
-body {
-  padding: 5px
+body, html {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
