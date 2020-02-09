@@ -1,22 +1,49 @@
-<!doctype html>
-
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8" />
+<title>David's Picks</title>
+<link rel="stylesheet" type="text/css" href="./css/styles.css">
+<link rel="stylesheet" type="text/css" href="./css/hero.css">
+<link rel="stylesheet" type="text/css" href="./css/content.css">
+<link rel="stylesheet" type="text/css" href="./css/nav.css">
 
-  <title>David's Picks</title>
-  <meta name="description" content="David's Picks">
-  <meta name="author" content="David B">
-
-  <!--<link rel="stylesheet" href="css/styles.css?v=1.0">-->
-
+<link rel="shortcut icon" type="image/bmp" href="favicon.ico">
+<link rel="icon"  type="image/bmp" href="favicon.ico">
 </head>
-
 <body>
-  <h1>Stage 4</h1>
-  <br><span>A space to play around with web coding</span>
-  <br><a href="../page2.html">Back
-  </a>
-  <!--<script src="js/scripts.js"></script>-->
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">David's Picks</h1>
+    <p>Things to do on the weekend</p>
+    <button>Comment</button>
+  </div>
+</div>
+
+
+<div>
+  <div class="content" id="root"></div>
+
+<ul>
+  <li><a class="active" href="#root">Find more</a></li>
+  <li><a href="#news">Link 1</a></li>
+  <li><a href="#contact">Link 2</a></li>
+  <li><a href="#about">Link 3</a></li>
+</ul>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load Picks content. -->
+    <script src="picks_content.js"></script>
+
+    <!-- Load the React component. -->
+    <script src="app.js"></script>
+
+  </div>  
+
 </body>
 </html>

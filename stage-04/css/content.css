@@ -1,0 +1,10 @@
+/* Style picks list */
+.content {
+  top: 5;
+  float: left;
+  margin: 0;
+  padding: 2%;
+  width: 71%;
+  height: 100%;
+  overflow: auto;
+}
