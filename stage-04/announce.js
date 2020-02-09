@@ -1,11 +1,11 @@
 buildtitle = "picks-web-react-nocompile";
 buildnumber = "012";
 
-if (document.getElementById("stage-03-announce")) {
-  document.getElementById("stage-03-announce").innerHTML = buildtitle;
+if (document.getElementById("stage-04-announce")) {
+  document.getElementById("stage-04-announce").innerHTML = buildtitle+'; Build '+buildnumber;
 } else if (document.getElementById("base-announce"))
 {
-  document.getElementById("base-announce").innerHTML = buildtitle;
+  document.getElementById("base-announce").innerHTML =  buildtitle+'; Build '+buildnumber;
 }
 
 document.getElementById("release-notes").innerHTML = 
