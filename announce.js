@@ -17,7 +17,7 @@ if (document.getElementById("stage-04-announce")) {
   document.getElementById("base-announce").innerHTML =  buildtitle+'; Build '+buildnumber;
 }
 
-document.getElementById("release-notes").innerHTML = 
+document.getElementById("base-release-notes").innerHTML = releasenotes
 
 document.getElementById("release-notes-build-011").innerHTML = 
 '<ul>Build 011'
