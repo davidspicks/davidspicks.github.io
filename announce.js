@@ -1,5 +1,14 @@
 buildtitle = "picks-web-react-nocompile";
 buildnumber = "012";
+releasenotes = 
+'<ul>Build '+buildnumber
+  +'<li>css styles</li>'
+  +'<li>top hero image</li>'
+  +'<li>banner text overlays hero image</li>'
+  +'<li>dummy comment button overlays hero image</li>'
+  +'<li>right navbar with dummy content</li>'
+  +'<li>picks content panel with scrollbar</li>'
++'</ul>';
 
 if (document.getElementById("stage-04-announce")) {
   document.getElementById("stage-04-announce").innerHTML = buildtitle+'; Build '+buildnumber;
@@ -9,16 +18,8 @@ if (document.getElementById("stage-04-announce")) {
 }
 
 document.getElementById("release-notes").innerHTML = 
-'<ul>Build '+buildnumber
-  +'<li>css styles</li>'
-  +'<li>top hero image</li>'
-  +'<li>banner text overlays hero image</li>'
-  +'<li>dummy comment button overlays hero image</li>'
-  +'<li>right navbar with dummy content</li>'
-  +'<li>picks content panel with scrollbar</li>'
-+'</ul>';  
 
-document.getElementById("build-011").innerHTML = 
+document.getElementById("release-notes-build-011").innerHTML = 
 '<ul>Build 011'
   +'<li>react-nocompile in app.js</li>'
   +'<li>date-range select dropdown</li>'
@@ -26,7 +27,7 @@ document.getElementById("build-011").innerHTML =
   +'<li>minimum page content</li>'
 +'</ul>';  
 
-document.getElementById("build-010").innerHTML = 
+document.getElementById("release-notes-build-010").innerHTML = 
 '<ul>Build 010'
 +'<li>react no-compile app implemented as &#060script> tags in index.html to render </li>content from  picks_content.js </li>'
 +'<li>react no-compile code in filter_button.js to render show/hide filter button (filter functionality not implemented)</li>'
