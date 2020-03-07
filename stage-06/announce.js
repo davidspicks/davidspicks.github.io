@@ -1,5 +1,5 @@
-buildtitle = "base build name";
-buildnumber = "nnn";
+buildtitle = "react-example built on Ubuntu 18";
+buildnumber = "000";
 releasenotes = 
    '<ul>Build '+buildnumber
   +'<li>first point</li>'
