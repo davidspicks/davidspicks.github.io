@@ -16,7 +16,7 @@ else if (document.getElementById("base-announce"))
 }
 
 //historic notes from previous builds
-if (document.getElementById("build-012-release-notes")) {
+if (document.getElementById("release-notes-build-012")) {
 document.getElementById("release-notes-build-012").innerHTML = 
 '<ul>Build 012'
   +'<li>css styles</li>'
@@ -27,7 +27,7 @@ document.getElementById("release-notes-build-012").innerHTML =
   +'<li>picks content panel with scrollbar</li>'
 +'</ul>';  }
 
-if (document.getElementById("build-011-release-notes")) {
+if (document.getElementById("release-notes-build-011")) {
 document.getElementById("release-notes-build-011").innerHTML = 
 '<ul>Build 011'
   +'<li>react-nocompile in app.js</li>'
@@ -36,7 +36,7 @@ document.getElementById("release-notes-build-011").innerHTML =
   +'<li>minimum page content</li>'
 +'</ul>';  }
 
-if (document.getElementById("build-010-release-notes")) {
+if (document.getElementById("release-notes-build-010")) {
 document.getElementById("release-notes-build-010").innerHTML = 
 '<ul>Build 010'
 +'<li>react no-compile app implemented as &#060script> tags in index.html to render </li>content from  picks_content.js </li>'
