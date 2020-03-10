@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/stage-08/static/css/main.3a6f98d0.chunk.css",
+    "main.js": "/stage-08/static/js/main.292379f0.chunk.js",
+    "main.js.map": "/stage-08/static/js/main.292379f0.chunk.js.map",
+    "runtime-main.js": "/stage-08/static/js/runtime-main.719b64c8.js",
+    "runtime-main.js.map": "/stage-08/static/js/runtime-main.719b64c8.js.map",
+    "static/js/2.6a1a0bcc.chunk.js": "/stage-08/static/js/2.6a1a0bcc.chunk.js",
+    "static/js/2.6a1a0bcc.chunk.js.map": "/stage-08/static/js/2.6a1a0bcc.chunk.js.map",
+    "index.html": "/stage-08/index.html",
+    "precache-manifest.97f1e72a3479b5c3aa6446abfa9bbcac.js": "/stage-08/precache-manifest.97f1e72a3479b5c3aa6446abfa9bbcac.js",
+    "service-worker.js": "/stage-08/service-worker.js",
+    "static/css/main.3a6f98d0.chunk.css.map": "/stage-08/static/css/main.3a6f98d0.chunk.css.map",
+    "static/js/2.6a1a0bcc.chunk.js.LICENSE.txt": "/stage-08/static/js/2.6a1a0bcc.chunk.js.LICENSE.txt",
+    "static/media/hero.css": "/stage-08/static/media/Seattle 6952-6 940x198.19a52416.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.719b64c8.js",
+    "static/js/2.6a1a0bcc.chunk.js",
+    "static/css/main.3a6f98d0.chunk.css",
+    "static/js/main.292379f0.chunk.js"
+  ]
+}
